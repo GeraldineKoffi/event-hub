@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pacifico&display=swap');
+
+/*Event*/
+.events{
+    width: 50%;
+    box-shadow: 1px 2px 15px #273633;
+   min-height: 600px;
+    min-width: 400px;
+    max-width: 500px;
+    position: relative;
+   transition: 100ms;
+   display: block;
+   margin: 75px auto;
+}
+.headEvent{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    left: 60px;
+    top: 50px;
+
+}
+select{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 35px;
+}
+.events .valid{
+    position: relative;
+    top: 40px;
+    left: 17px;
+    width: 150px;
+    height: 30px;
+    background-color: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.events .valid:hover{
+    background: white;
+    color: #005C96;
+    border:1px solid #005C96;
+}
+.events .file{
+    border: none;
+}
+/*Evetlist*/
+.eventL h1{
+    position: relative;
+    left: 40%;
+    top: -20px;
+}
+.recherche{
+    background: #005C96;
+    width: 450px;
+    position:absolute;
+    left: 35%;
+    top: 90px;
+    height: 70px;
+}
+hr{
+    top:40px;
+    position: relative;
+}
+.recherche img{
+     position: relative;
+     top:10px;
+     left:10px;
+     width: 90px;
+     height: 50px;
+}
+.recherche input{
+    border: 1px solid white;
+    position: relative;
+    top: -11px;
+    left:10px;
+    height: 45.8px;
+    width: 330px;
+}
+
+.eventList{
+    position: relative;
+    left: 170px;
+    width: 80%;
+    height: 500px;
+    border: none;
+    box-shadow: 0 10px 10px  rgb(138, 161, 182);
+    border-spacing: 10px;
+}
+.title{
+    position: relative;
+    left: 60%;
+    top: 30px;
+    font-family: 'Comforter Brush', cursive;
+    color: #005C96;
+    font-size: 40px;
+}
+.imag{
+    width: 300px;
+    position: relative;
+    left: 15%;
+    top: -20%;
+}
+.descrp{
+    color: #005C96;
+    position: relative;
+    font-family: 'poppins', cursive;
+    left: 60%;
+    top: -75%;
+    font-size: 25px;
+}
+.date{
+    color: #005C96;
+position: relative;
+font-family: 'poppins', cursive;
+top: -80%;
+left: 60%;
+font-size: 25px;
+}
+.status{
+    color: #005C96;
+    position: relative;
+    top: -80%;
+    left: 60%;
+    font-family: 'poppins', cursive;
+    font-size: 25px;
+}
+.prix{
+    color: #005C96;
+position: relative;
+top: -80%;
+left: 60%;
+font-family: 'poppins', cursive;
+font-size: 25px;
+}
+.eventList .valid{
+    position: relative;
+    position: relative;
+    top: -80%;
+    font-family: 'poppins', cursive;
+    left: 60%;
+    
+ }
+.achat{
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    background: rgba(0, 0,0, 0.5);
+    width: 220px;
+    height: 220px;
+    color: white;
+}
+
+@media only screen and (max-width:1000px){
+    .eventList{
+        left: 100px;
+    }
+    .title{
+        left: 50%;
+    }
+}
+@media only screen and (max-width:820px){
+    .eventList{
+        left: 50px;
+    }
+    .date{
+        font-size: 20px;
+        top: -7%;
+    }
+    .recherche{
+        left: 50px;
+    }
+    .imag{
+        width: 100px;
+        top: 60px;
+    }
+    .title{
+        font-size: 30px;
+        top: 70px;
+        left: 40%;
+    }
+    .descrp{
+        font-size: 20px;
+        top: -15%;
+    }
+    .status{
+        font-size: 20px;
+        top: -30%;
+    }
+    .prix{
+        font-size: 20px;
+        top: -20%;
+        left: 50%;
+    }
+    .eventList .valid{
+        top: -15%;
+    }
+
+}

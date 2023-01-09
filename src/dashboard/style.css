@@ -1,0 +1,209 @@
+.dashboard{
+    position: relative;
+    top: 20px;
+}
+.deconnect{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.deconnect:hover{
+    background: white;
+    color: #005C96;
+}
+.event{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 50px;
+}
+.event:hover{
+    background: white;
+    color: #005C96;
+}
+.event1{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 50px;
+}
+.event1:hover{
+    background: white;
+    color: #005C96;
+}
+.event2{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 100px;
+}
+.event2:hover{
+    background: white;
+    color: #005C96;
+}
+.event3{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 150px;
+}
+.event3:hover{
+    background: white;
+    color: #005C96;
+}
+.event4{
+    position: absolute;
+    right: 10px;
+   height: 30px;
+    background: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 200px;
+}
+.event4:hover{
+    background: white;
+    color: #005C96;
+}
+.imgProfil{
+    width: 200px;
+    height: 190px;
+    position: relative;
+    border: 5px solid #005C96;
+    border-radius: 50%;
+    background-size: cover;
+    left: 15px;
+}
+.img{
+    position: relative;
+    outline: none;
+    width: 90px;
+    height: 90px;
+    top: 40%;
+    left: -40px;
+    cursor: pointer;
+    border: none;
+}
+.img::-webkit-file-upload-button{
+   visibility: hidden;
+}
+.img::before{
+ content: url('./appareil.png');
+ -webkit-user-select: none;
+}
+.info{
+    position: relative;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    top: -70px;
+    left: 15px;
+}
+.profil .valid{
+    position: relative;
+    top: -60px;
+    width: 150px;
+    height: 30px;
+    background-color: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.profil .valid:hover{
+    color: #005C96;
+    background: white;
+    border: solid 1px #005C96;
+}
+.modifProfil{
+    position: relative;
+    top: -110px;
+    left: 10px;
+}
+.infoModif{
+    position: relative;
+    top: -80px;
+}
+.modifProfil .valid{
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 30px;
+    background-color: #005C96;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.modifProfil .valid:hover{
+    color: #005C96;
+    background: white;
+    border: solid 1px #005C96;
+}
+.profilOrg .valid{
+ position: relative;
+ top: -80px;
+}
+.profilOrg .modifProfil{
+    position: relative;
+    top: -120px;
+    left: 10px;
+}
+.profilOrg input{
+    margin-bottom: 25px;
+}
+.profilOrg .modifProfil .valid{
+    position: relative;
+    top: 56px;
+}
+/*interest*/
+.interest{
+    position: absolute;
+    right: 30%;
+    top: 90px;
+    width: 45%;
+    height: 90px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
